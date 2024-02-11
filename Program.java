@@ -7,19 +7,23 @@ public class Program {
         // работа с классом комплесных чисел
         Complex complex3 = complex1.mult(complex2); // вычисляем произведение
         System.out.printf("complex1 * complex2 = ");
-        complex3.print('c');
+        complex3.print();
         System.out.println();
+        
         Complex complex4 = complex1.div(complex2); // вычисляем частное
         System.out.printf("complex1 / complex2 = ");
-        complex4.print('c');
+        complex4.print();
         System.out.println();
+        
         Complex complex5 = complex1.sum(complex2); // вычисляем сумму
         System.out.printf("complex1 + complex2 = ");
-        complex5.print('c');
+        complex5.print();
         System.out.println();
+        
         Complex complex6 = complex1.diff(complex2); // вычисляем разность
         System.out.printf("complex1 - complex2 = ");
-        complex6.print('c');
+        complex6.print();
+        System.out.println();
 
         System.out.println();
 
@@ -58,7 +62,7 @@ public class Program {
 
         Complex determinant1 = matrix1.determinant();    // находим детерминант
         System.out.printf("det matrix1 = ");
-        determinant1.print('c');
+        determinant1.print();
         System.out.println();
 
         Matrix matrix6 = matrix1.multNum(complex1);     // умножаем на число
@@ -96,7 +100,7 @@ public class Program {
 
         Complex determinant2 = matrix7.determinant();     // вычисляем детерминант
         System.out.printf("det matrix7 = ");
-        determinant2.print('c');
+        determinant2.print();
         System.out.println();
     }
 
