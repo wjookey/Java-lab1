@@ -63,27 +63,13 @@ public class Complex {
         return tmpMult;
     }
 
-    public void print(char param)     // вывод комплексного числа/комплексных чисел
+    public void print()     // вывод комплексного числа/комплексных чисел
     {
-        if (param == 'c') // вывод в столбик
-        {
-            if (this.im >= 0) {
-                System.out.printf("%.1f + %.1f * i\n", this.re, this.im);
-            } 
-            else {
-                System.out.printf("%.1f - %.1f * i\n", this.re, (-1) * this.im);
-            }
+        if (this.im >= 0) {
+        System.out.printf("%.1f + %.1f * i", this.re, this.im);
+        } 
+        else {
+            System.out.printf("%.1f - %.1f * i", this.re, (-1) * this.im);
         }
-        else if (param == 'r') // вывод в строчку
-        {
-            if (this.im >= 0) {
-                System.out.printf("%.1f + %.1f * i", this.re, this.im);
-            } 
-            else {
-                System.out.printf("%.1f - %.1f * i", this.re, (-1) * this.im);
-            }
-        }
-        
-        
     }
 }
