@@ -199,7 +199,7 @@ public class Matrix {
             System.out.printf("|");
             for (int j = 0; j < this.col; j++)
             {
-                this.matrix[i][j].print('r');
+                this.matrix[i][j].print();
                 if (j != this.col - 1)
                 {
                     System.out.printf("   ");
