@@ -66,7 +66,7 @@ public class Complex {
     public void print()     // вывод комплексного числа/комплексных чисел
     {
         if (this.im >= 0) {
-        System.out.printf("%.1f + %.1f * i", this.re, this.im);
+            System.out.printf("%.1f + %.1f * i", this.re, this.im);
         } 
         else {
             System.out.printf("%.1f - %.1f * i", this.re, (-1) * this.im);
